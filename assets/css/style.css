@@ -1,0 +1,21 @@
+/* 
+  CSS in body{} will be applyed to everything within <body></body>
+*/
+body {
+  background-color: black;
+  /* box-sizing: border-box; */
+  color: white;
+  font-size: clamp(1.5vh, 3vh, 35px);
+  height: 100%;
+  width: 99%;
+}
+
+/* 
+  CSS in .text{} will be applyed to everything with tehe text class
+*/
+.text {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-size: clamp(min, value, max); */
+  font-size: clamp(1vh, 3vh, 24px);
+}
